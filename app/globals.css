@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-brainrot-pink via-brainrot-blue to-brainrot-purple min-h-screen;
+    font-family: 'Comic Sans MS', cursive;
+  }
+}
+
+@layer components {
+  .brainrot-card {
+    @apply bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105;
+  }
+  
+  .brainrot-button {
+    @apply bg-gradient-to-r from-brainrot-pink to-brainrot-purple text-white font-bold py-3 px-6 rounded-full hover:from-brainrot-purple hover:to-brainrot-pink transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
+  }
+}
