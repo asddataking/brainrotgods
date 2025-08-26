@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function SuccessPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brainrot-pink via-brainrot-blue to-brainrot-purple">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200">
       <div className="brainrot-card p-12 text-center max-w-md mx-4">
         <div className="text-8xl mb-6">🎉</div>
         <h1 className="text-3xl font-bold text-gray-800 mb-4 font-brainrot">

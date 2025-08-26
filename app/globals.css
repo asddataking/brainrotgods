@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-brainrot-pink via-brainrot-blue to-brainrot-purple min-h-screen;
+    @apply bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 min-h-screen;
     font-family: 'Comic Sans MS', cursive;
   }
 }
